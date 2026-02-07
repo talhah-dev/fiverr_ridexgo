@@ -2,7 +2,7 @@ const navbar = document.getElementById("navbar");
 
 navbar.innerHTML = `
 <header data-aos="fade-in" id="rx-header" class="fixed w-full top-0 z-50 border-b border-white/10 bg-transparent backdrop-blur transition-colors duration-300 ease-out">
-  <nav class="mx-auto max-w-6xl px-4 py-5 sm:px-6 lg:px-8" aria-label="Main navigation">
+  <nav class="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8" aria-label="Main navigation">
     <div class="flex items-center justify-between gap-3">
       <a href="#top" class="flex items-center gap-3">
         <img src="/docs/assets/logo.png" alt="RideXGo" class="h-9" />
