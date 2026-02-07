@@ -51,3 +51,8 @@ input:user-invalid {
 .animate-fadeIn {
     animation: fadeIn 0.6s ease-out forwards;
 }
+
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.69), black), url(/docs/assets/bg.png);
+}
