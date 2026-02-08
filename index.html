@@ -54,7 +54,6 @@
     <!-- NAVBAR -->
     <div id="navbar"></div>
 
-
     <section id="top" class="relative hero md:pt-28 pt-20 overflow-hidden md:py-10 text-white">
         <div class="pointer-events-none absolute inset-0">
             <div class="absolute -top-24 -left-24 h-72 w-72 rounded-full bg-yellow-400/15 blur-3xl"></div>
@@ -162,7 +161,8 @@
                         steps, helpful guidance, and real people on WhatsApp.
                     </p>
 
-                    <div  data-aos="fade-up" data-aos-delay="300" class="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center">
+                    <div data-aos="fade-up" data-aos-delay="300"
+                        class="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center">
                         <a href="#cities"
                             class="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-yellow-400 px-5 py-3 text-sm font-extrabold text-black shadow-[0_0_24px_rgba(250,204,21,0.20)] hover:shadow-[0_0_28px_rgba(250,204,21,0.28)] active:scale-[0.98] sm:w-auto">
                             <i class="fa-solid fa-location-dot"></i>
@@ -608,10 +608,11 @@
         </div>
     </section>
 
+
     <section id="cities" class="bg-white">
         <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 md:py-28 lg:px-8">
             <div data-aos="fade-up" class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-                <div >
+                <div>
                     <div
                         class="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-3 py-1.5 text-xs font-semibold text-black shadow-sm">
                         <i class="fa-solid fa-taxi text-yellow-500"></i>
@@ -811,7 +812,8 @@
                 </div>
             </div>
 
-            <div data-aos="fade-up" class="mt-7 rounded-[26px] border border-black/10 bg-black p-5 text-white shadow-sm">
+            <div data-aos="fade-up"
+                class="mt-7 rounded-[26px] border border-black/10 bg-black p-5 text-white shadow-sm">
                 <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                     <div class="flex items-start gap-3">
                         <span class="grid h-11 w-11 place-items-center rounded-2xl bg-yellow-400 text-black">
@@ -833,10 +835,141 @@
         </div>
     </section>
 
+    
+    <!-- STATS / HAPPY USERS SECTION (DARK) -->
+<section id="stats" class="relative overflow-hidden bg-black py-16 sm:py-20">
+  <div class="pointer-events-none absolute inset-0">
+    <div class="absolute -top-24 left-1/4 h-64 w-64 rounded-full bg-yellow-400/10 blur-3xl"></div>
+    <div class="absolute -bottom-24 right-1/4 h-64 w-64 rounded-full bg-white/5 blur-3xl"></div>
+  </div>
+
+  <div class="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
+        Trusted by drivers across Türkiye
+      </h2>
+      <p class="mt-3 text-sm leading-relaxed text-white/70 sm:text-base">
+        Thousands of drivers choose RideXGo as their Yandex Taxi partner for stable income,
+        fast onboarding, and real support.
+      </p>
+    </div>
+
+    <div class="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
+      <!-- Active Drivers -->
+      <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
+        <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
+          <span class="rx-counter" data-count="5000">0</span><span>+</span>
+        </div>
+        <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
+          Active Drivers
+        </div>
+      </div>
+
+      <!-- Cities Live -->
+      <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
+        <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
+          <span class="rx-counter" data-count="5">0</span>
+        </div>
+        <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
+          Cities Live
+        </div>
+      </div>
+
+      <!-- Support -->
+      <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
+        <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
+          <span class="rx-counter" data-count="24">0</span><span>/7</span>
+        </div>
+        <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
+          Driver Support
+        </div>
+      </div>
+
+      <!-- Rating -->
+      <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
+        <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
+          <span class="rx-counter" data-count="4.9" data-decimals="1">0</span><span>★</span>
+        </div>
+        <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
+          Driver Rating
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 flex flex-wrap items-center justify-center gap-4 text-xs font-semibold text-white/60">
+      <div class="inline-flex items-center gap-2">
+        <i class="fa-solid fa-shield-halved text-yellow-400"></i>
+        Official Yandex Partner
+      </div>
+      <div class="inline-flex items-center gap-2">
+        <i class="fa-solid fa-wallet text-yellow-400"></i>
+        Daily payouts
+      </div>
+      <div class="inline-flex items-center gap-2">
+        <i class="fa-solid fa-headset text-yellow-400"></i>
+        Real human support
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COUNT-UP ANIMATION (STARTS WHEN SECTION IS VISIBLE) -->
+<script>
+  (function () {
+    const counters = document.querySelectorAll(".rx-counter");
+    if (!counters.length) return;
+
+    function animateCounter(el) {
+      const target = parseFloat(el.dataset.count || "0");
+      const decimals = parseInt(el.dataset.decimals || "0", 10);
+
+      const duration = 1200;
+      const startTime = performance.now();
+
+      function format(n) {
+        if (decimals > 0) return n.toFixed(decimals);
+        return Math.round(n).toLocaleString();
+      }
+
+      function tick(now) {
+        const progress = Math.min((now - startTime) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
+        const value = target * eased;
+
+        el.textContent = format(value);
+
+        if (progress < 1) requestAnimationFrame(tick);
+        else el.textContent = format(target);
+      }
+
+      requestAnimationFrame(tick);
+    }
+
+    const seen = new WeakSet();
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+
+          const el = entry.target;
+          if (seen.has(el)) return;
+
+          seen.add(el);
+          animateCounter(el);
+        });
+      },
+      { threshold: 0.35 }
+    );
+
+    counters.forEach((c) => observer.observe(c));
+  })();
+</script>
+
 
 
     <section id="about" class="bg-white">
-        <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 md:pb-28 lg:px-8">
+        <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 md:py-28 lg:px-8">
             <div class="grid gap-8 lg:grid-cols-2 lg:gap-10">
                 <div data-aos="fade-up">
                     <div
@@ -1027,7 +1160,6 @@
             </div>
         </div>
     </section>
-
 
     <section id="how" data-aos="zoom-in-up" class="bg-black">
         <div class="mx-auto max-w-7xl px-4 md:py-28 py-12 sm:px-6 lg:px-8">
@@ -1515,12 +1647,10 @@
         </script>
     </section>
 
-
-
     <section id="testimonials" class="bg-white">
         <div class="mx-auto max-w-7xl md:py-28 px-4 py-12 sm:px-6 lg:px-8">
             <div data-aos="fade-up" class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-                <div >
+                <div>
                     <div
                         class="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-3 py-1.5 text-xs font-semibold text-black shadow-sm">
                         <i class="fa-solid fa-star text-yellow-500"></i>
@@ -1796,8 +1926,6 @@
         </div>
     </section>
 
-
-
     <section id="faq" class="bg-white">
         <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
             <div data-aos="fade-up" class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
@@ -1822,7 +1950,7 @@
                 </a>
             </div>
 
-            <div  class="mt-7 grid gap-5 lg:grid-cols-12">
+            <div class="mt-7 grid gap-5 lg:grid-cols-12">
                 <div data-aos="fade-up" class="lg:col-span-7">
                     <div class="rounded-[28px] border border-black/10 bg-white shadow-sm">
                         <div class="p-4 sm:p-5">
@@ -2152,11 +2280,9 @@
         </script>
     </section>
 
-
-
     <section id="contact" class="bg-white">
         <div class="mx-auto max-w-7xl px-4 py-12 md:py-20 md:pb-28 sm:px-6 lg:px-8">
-            <div  data-aos="fade-up" class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+            <div data-aos="fade-up" class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
                 <div>
                     <div
                         class="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-3 py-1.5 text-xs font-semibold text-black shadow-sm">
@@ -2384,7 +2510,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- Footer -->
     <div class="" data-aos="fade" id="footer"></div>
