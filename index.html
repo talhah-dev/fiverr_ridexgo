@@ -835,136 +835,136 @@
         </div>
     </section>
 
-    
+
     <!-- STATS / HAPPY USERS SECTION (DARK) -->
-<section id="stats" class="relative overflow-hidden bg-black py-16 sm:py-20">
-  <div class="pointer-events-none absolute inset-0">
-    <div class="absolute -top-24 left-1/4 h-64 w-64 rounded-full bg-yellow-400/10 blur-3xl"></div>
-    <div class="absolute -bottom-24 right-1/4 h-64 w-64 rounded-full bg-white/5 blur-3xl"></div>
-  </div>
-
-  <div class="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-    <div class="mx-auto max-w-2xl text-center">
-      <h2 class="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
-        Trusted by drivers across Türkiye
-      </h2>
-      <p class="mt-3 text-sm leading-relaxed text-white/70 sm:text-base">
-        Thousands of drivers choose RideXGo as their Yandex Taxi partner for stable income,
-        fast onboarding, and real support.
-      </p>
-    </div>
-
-    <div class="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
-      <!-- Active Drivers -->
-      <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
-        <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
-          <span class="rx-counter" data-count="5000">0</span><span>+</span>
+    <section id="stats" class="relative overflow-hidden bg-black py-16 sm:py-20">
+        <div class="pointer-events-none absolute inset-0">
+            <div class="absolute -top-24 left-1/4 h-64 w-64 rounded-full bg-yellow-400/10 blur-3xl"></div>
+            <div class="absolute -bottom-24 right-1/4 h-64 w-64 rounded-full bg-white/5 blur-3xl"></div>
         </div>
-        <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
-          Active Drivers
+
+        <div class="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl text-center">
+                <h2 class="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
+                    Trusted by drivers across Türkiye
+                </h2>
+                <p class="mt-3 text-sm leading-relaxed text-white/70 sm:text-base">
+                    Thousands of drivers choose RideXGo as their Yandex Taxi partner for stable income,
+                    fast onboarding, and real support.
+                </p>
+            </div>
+
+            <div class="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
+                <!-- Active Drivers -->
+                <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
+                    <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
+                        <span class="rx-counter" data-count="5000">0</span><span>+</span>
+                    </div>
+                    <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
+                        Active Drivers
+                    </div>
+                </div>
+
+                <!-- Cities Live -->
+                <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
+                    <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
+                        <span class="rx-counter" data-count="5">0</span>
+                    </div>
+                    <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
+                        Cities Live
+                    </div>
+                </div>
+
+                <!-- Support -->
+                <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
+                    <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
+                        <span class="rx-counter" data-count="24">0</span><span>/7</span>
+                    </div>
+                    <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
+                        Driver Support
+                    </div>
+                </div>
+
+                <!-- Rating -->
+                <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
+                    <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
+                        <span class="rx-counter" data-count="4.9" data-decimals="1">0</span><span>★</span>
+                    </div>
+                    <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
+                        Driver Rating
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-10 flex flex-wrap items-center justify-center gap-4 text-xs font-semibold text-white/60">
+                <div class="inline-flex items-center gap-2">
+                    <i class="fa-solid fa-shield-halved text-yellow-400"></i>
+                    Official Yandex Partner
+                </div>
+                <div class="inline-flex items-center gap-2">
+                    <i class="fa-solid fa-wallet text-yellow-400"></i>
+                    Daily payouts
+                </div>
+                <div class="inline-flex items-center gap-2">
+                    <i class="fa-solid fa-headset text-yellow-400"></i>
+                    Real human support
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
 
-      <!-- Cities Live -->
-      <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
-        <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
-          <span class="rx-counter" data-count="5">0</span>
-        </div>
-        <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
-          Cities Live
-        </div>
-      </div>
+    <!-- COUNT-UP ANIMATION (STARTS WHEN SECTION IS VISIBLE) -->
+    <script>
+        (function () {
+            const counters = document.querySelectorAll(".rx-counter");
+            if (!counters.length) return;
 
-      <!-- Support -->
-      <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
-        <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
-          <span class="rx-counter" data-count="24">0</span><span>/7</span>
-        </div>
-        <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
-          Driver Support
-        </div>
-      </div>
+            function animateCounter(el) {
+                const target = parseFloat(el.dataset.count || "0");
+                const decimals = parseInt(el.dataset.decimals || "0", 10);
 
-      <!-- Rating -->
-      <div class="rounded-3xl border border-white/10 bg-white/5 p-5 text-center shadow-sm backdrop-blur-sm">
-        <div class="text-3xl font-extrabold text-yellow-400 sm:text-4xl">
-          <span class="rx-counter" data-count="4.9" data-decimals="1">0</span><span>★</span>
-        </div>
-        <div class="mt-1 text-xs font-semibold uppercase tracking-wide text-white/60">
-          Driver Rating
-        </div>
-      </div>
-    </div>
+                const duration = 1200;
+                const startTime = performance.now();
 
-    <div class="mt-10 flex flex-wrap items-center justify-center gap-4 text-xs font-semibold text-white/60">
-      <div class="inline-flex items-center gap-2">
-        <i class="fa-solid fa-shield-halved text-yellow-400"></i>
-        Official Yandex Partner
-      </div>
-      <div class="inline-flex items-center gap-2">
-        <i class="fa-solid fa-wallet text-yellow-400"></i>
-        Daily payouts
-      </div>
-      <div class="inline-flex items-center gap-2">
-        <i class="fa-solid fa-headset text-yellow-400"></i>
-        Real human support
-      </div>
-    </div>
-  </div>
-</section>
+                function format(n) {
+                    if (decimals > 0) return n.toFixed(decimals);
+                    return Math.round(n).toLocaleString();
+                }
 
-<!-- COUNT-UP ANIMATION (STARTS WHEN SECTION IS VISIBLE) -->
-<script>
-  (function () {
-    const counters = document.querySelectorAll(".rx-counter");
-    if (!counters.length) return;
+                function tick(now) {
+                    const progress = Math.min((now - startTime) / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
+                    const value = target * eased;
 
-    function animateCounter(el) {
-      const target = parseFloat(el.dataset.count || "0");
-      const decimals = parseInt(el.dataset.decimals || "0", 10);
+                    el.textContent = format(value);
 
-      const duration = 1200;
-      const startTime = performance.now();
+                    if (progress < 1) requestAnimationFrame(tick);
+                    else el.textContent = format(target);
+                }
 
-      function format(n) {
-        if (decimals > 0) return n.toFixed(decimals);
-        return Math.round(n).toLocaleString();
-      }
+                requestAnimationFrame(tick);
+            }
 
-      function tick(now) {
-        const progress = Math.min((now - startTime) / duration, 1);
-        const eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
-        const value = target * eased;
+            const seen = new WeakSet();
 
-        el.textContent = format(value);
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach((entry) => {
+                        if (!entry.isIntersecting) return;
 
-        if (progress < 1) requestAnimationFrame(tick);
-        else el.textContent = format(target);
-      }
+                        const el = entry.target;
+                        if (seen.has(el)) return;
 
-      requestAnimationFrame(tick);
-    }
+                        seen.add(el);
+                        animateCounter(el);
+                    });
+                },
+                { threshold: 0.35 }
+            );
 
-    const seen = new WeakSet();
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-
-          const el = entry.target;
-          if (seen.has(el)) return;
-
-          seen.add(el);
-          animateCounter(el);
-        });
-      },
-      { threshold: 0.35 }
-    );
-
-    counters.forEach((c) => observer.observe(c));
-  })();
-</script>
+            counters.forEach((c) => observer.observe(c));
+        })();
+    </script>
 
 
 
@@ -1161,7 +1161,8 @@
         </div>
     </section>
 
-    <section id="how" data-aos="zoom-in-up" class="bg-black">
+
+    <section id="how" data-aos="zoom-in-up" class="bg-black overflow-hidden">
         <div class="mx-auto max-w-7xl px-4 md:py-28 py-12 sm:px-6 lg:px-8">
             <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
                 <div>
@@ -1186,46 +1187,50 @@
             </div>
 
             <div class="mt-6 grid gap-5 lg:grid-cols-2 lg:items-start">
-                <div class="rounded-[28px] border border-white/10 bg-white/5 p-4 shadow-sm">
-                    <div class="flex flex-wrap gap-2" role="tablist" aria-label="Driver onboarding steps">
+                <div class="rounded-[28px] border border-white/10 bg-white/5 md:p-4 p-2 shadow-sm">
+                    <div class="hidden sm:grid grid-cols-2 gap-2" role="tablist" aria-label="Driver onboarding steps">
                         <button type="button"
-                            class="rx-tab inline-flex flex-1 items-center justify-center gap-2 rounded-2xl px-4 py-3 text-xs font-extrabold text-white/80 outline-none ring-yellow-400/40 focus:ring-2 sm:text-sm"
+                            class="rx-tab inline-flex flex-1 items-center justify-center gap-2 rounded-2xl px-4 py-3 text-xs font-extrabold outline-none ring-yellow-400/40 focus:ring-2 sm:text-sm bg-yellow-400 text-black shadow-sm"
                             data-rx-tab="personal" aria-selected="true">
-                            <span class="grid h-7 w-7 place-items-center rounded-xl bg-white/10 text-yellow-400">
-                                <i class="fa-solid fa-id-card"></i>
+                            <span
+                                class="rx-icon-wrap grid h-8 w-8 shrink-0 place-items-center rounded-2xl bg-black text-yellow-400">
+                                <i class="rx-icon fa-solid fa-id-card text-sm leading-none"></i>
                             </span>
                             Personal Info
                         </button>
 
                         <button type="button"
-                            class="rx-tab inline-flex flex-1 items-center justify-center gap-2 rounded-2xl px-4 py-3 text-xs font-extrabold text-white/80 outline-none ring-yellow-400/40 focus:ring-2 sm:text-sm"
+                            class="rx-tab inline-flex flex-1 items-center justify-center gap-2 rounded-2xl px-4 py-3 text-xs font-extrabold outline-none ring-yellow-400/40 focus:ring-2 sm:text-sm bg-white/10 text-white/80"
                             data-rx-tab="car" aria-selected="false">
-                            <span class="grid h-7 w-7 place-items-center rounded-xl bg-white/10 text-yellow-400">
-                                <i class="fa-solid fa-car"></i>
+                            <span
+                                class="rx-icon-wrap grid h-8 w-8 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                <i class="rx-icon fa-solid fa-car text-sm leading-none"></i>
                             </span>
                             Car Details
                         </button>
 
                         <button type="button"
-                            class="rx-tab inline-flex flex-1 items-center justify-center gap-2 rounded-2xl px-4 py-3 text-xs font-extrabold text-white/80 outline-none ring-yellow-400/40 focus:ring-2 sm:text-sm"
+                            class="rx-tab inline-flex flex-1 items-center justify-center gap-2 rounded-2xl px-4 py-3 text-xs font-extrabold outline-none ring-yellow-400/40 focus:ring-2 sm:text-sm bg-white/10 text-white/80"
                             data-rx-tab="license" aria-selected="false">
-                            <span class="grid h-7 w-7 place-items-center rounded-xl bg-white/10 text-yellow-400">
-                                <i class="fa-solid fa-file-circle-check"></i>
+                            <span
+                                class="rx-icon-wrap grid h-8 w-8 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                <i class="rx-icon fa-solid fa-file-circle-check text-sm leading-none"></i>
                             </span>
                             License
                         </button>
 
                         <button type="button"
-                            class="rx-tab inline-flex flex-1 items-center justify-center gap-2 rounded-2xl px-4 py-3 text-xs font-extrabold text-white/80 outline-none ring-yellow-400/40 focus:ring-2 sm:text-sm"
+                            class="rx-tab inline-flex flex-1 items-center justify-center gap-2 rounded-2xl px-4 py-3 text-xs font-extrabold outline-none ring-yellow-400/40 focus:ring-2 sm:text-sm bg-white/10 text-white/80"
                             data-rx-tab="start" aria-selected="false">
-                            <span class="grid h-7 w-7 place-items-center rounded-xl bg-white/10 text-yellow-400">
-                                <i class="fa-solid fa-bolt"></i>
+                            <span
+                                class="rx-icon-wrap grid h-8 w-8 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                <i class="rx-icon fa-solid fa-bolt text-sm leading-none"></i>
                             </span>
                             Get Started
                         </button>
                     </div>
 
-                    <div class="mt-4 rounded-[22px] border border-white/10 bg-black p-4">
+                    <div class="hidden sm:block mt-4 rounded-[22px] border border-white/10 bg-black p-4">
                         <div class="rx-panel" data-rx-panel="personal">
                             <div class="flex items-start justify-between gap-4">
                                 <div>
@@ -1365,9 +1370,8 @@
                             </div>
 
                             <div class="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                                <div class="text-xs text-white/65">
-                                    Tip: Keep your plate and car info accurate to avoid delays.
-                                </div>
+                                <div class="text-xs text-white/65">Tip: Keep your plate and car info accurate to avoid
+                                    delays.</div>
                                 <a href="#cities"
                                     class="inline-flex items-center justify-center gap-2 rounded-2xl bg-yellow-400 px-5 py-3 text-xs font-extrabold text-black active:scale-[0.98] sm:text-sm">
                                     <i class="fa-solid fa-arrow-right"></i>
@@ -1437,9 +1441,8 @@
                             </div>
 
                             <div class="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                                <div class="text-xs text-white/65">
-                                    Tip: Good lighting and readable documents speed up approval.
-                                </div>
+                                <div class="text-xs text-white/65">Tip: Good lighting and readable documents speed up
+                                    approval.</div>
                                 <a href="#cities"
                                     class="inline-flex items-center justify-center gap-2 rounded-2xl bg-yellow-400 px-5 py-3 text-xs font-extrabold text-black active:scale-[0.98] sm:text-sm">
                                     <i class="fa-solid fa-arrow-right"></i>
@@ -1520,15 +1523,293 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="sm:hidden mt-4 grid gap-3">
+                        <div class="rounded-2xl border border-white/10 bg-black p-4">
+                            <div class="flex items-start justify-between gap-4">
+                                <div>
+                                    <div class="text-sm font-extrabold text-white">Step 1 — Personal information</div>
+                                    <p class="mt-2 text-xs leading-relaxed text-white/70">
+                                        Share your basic details so we can contact you and guide you through onboarding.
+                                    </p>
+                                </div>
+                                <span
+                                    class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-bold text-white/80">
+                                    <i class="fa-solid fa-circle-check text-yellow-400"></i>
+                                    Required
+                                </span>
+                            </div>
+
+                            <div class="mt-4 grid gap-3">
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-solid fa-user"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">Full name</div>
+                                            <div class="text-sm font-extrabold text-white">As in your ID</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-solid fa-phone"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">Phone / WhatsApp</div>
+                                            <div class="text-sm font-extrabold text-white">For quick support</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">City</div>
+                                            <div class="text-sm font-extrabold text-white">Select where you want to
+                                                drive</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a href="#cities"
+                                    class="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-yellow-400 px-5 py-3 text-xs font-extrabold text-black active:scale-[0.98]">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    Go to registration
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="rounded-2xl border border-white/10 bg-black p-4">
+                            <div class="flex items-start justify-between gap-4">
+                                <div>
+                                    <div class="text-sm font-extrabold text-white">Step 2 — Car details</div>
+                                    <p class="mt-2 text-xs leading-relaxed text-white/70">
+                                        Provide your car info so we can confirm eligibility and set up your driver
+                                        profile correctly.
+                                    </p>
+                                </div>
+                                <span
+                                    class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-bold text-white/80">
+                                    <i class="fa-solid fa-circle-check text-yellow-400"></i>
+                                    Required
+                                </span>
+                            </div>
+
+                            <div class="mt-4 grid gap-3">
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-solid fa-car-side"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">Make & model</div>
+                                            <div class="text-sm font-extrabold text-white">Example: Toyota Corolla</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-solid fa-calendar"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">Year</div>
+                                            <div class="text-sm font-extrabold text-white">Car production year</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-solid fa-id-card-clip"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">Plate number</div>
+                                            <div class="text-sm font-extrabold text-white">Vehicle plate</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-solid fa-palette"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">Color</div>
+                                            <div class="text-sm font-extrabold text-white">Car color</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a href="#cities"
+                                    class="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-yellow-400 px-5 py-3 text-xs font-extrabold text-black active:scale-[0.98]">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    Continue registration
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="rounded-2xl border border-white/10 bg-black p-4">
+                            <div class="flex items-start justify-between gap-4">
+                                <div>
+                                    <div class="text-sm font-extrabold text-white">Step 3 — License & documents</div>
+                                    <p class="mt-2 text-xs leading-relaxed text-white/70">
+                                        Upload or share the required documents so we can verify you and activate your
+                                        account.
+                                    </p>
+                                </div>
+                                <span
+                                    class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-bold text-white/80">
+                                    <i class="fa-solid fa-circle-check text-yellow-400"></i>
+                                    Required
+                                </span>
+                            </div>
+
+                            <div class="mt-4 grid gap-3">
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-solid fa-id-badge"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">Driver license</div>
+                                            <div class="text-sm font-extrabold text-white">Clear photo</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-solid fa-file-lines"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">Vehicle documents</div>
+                                            <div class="text-sm font-extrabold text-white">Registration / insurance
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-solid fa-shield"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">Verification</div>
+                                            <div class="text-sm font-extrabold text-white">We check everything and
+                                                confirm</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <a href="#cities"
+                                    class="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-yellow-400 px-5 py-3 text-xs font-extrabold text-black active:scale-[0.98]">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    Submit documents
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="rounded-2xl border border-white/10 bg-black p-4">
+                            <div class="flex items-start justify-between gap-4">
+                                <div>
+                                    <div class="text-sm font-extrabold text-white">Step 4 — Get started</div>
+                                    <p class="mt-2 text-xs leading-relaxed text-white/70">
+                                        Once approved, you’re ready to go. Start taking rides and earn with support from
+                                        our team.
+                                    </p>
+                                </div>
+                                <span
+                                    class="inline-flex items-center gap-2 rounded-full bg-yellow-400 px-3 py-1 text-xs font-extrabold text-black">
+                                    <i class="fa-solid fa-bolt"></i>
+                                    Go
+                                </span>
+                            </div>
+
+                            <div class="mt-4 grid gap-3">
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-solid fa-circle-check"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">Account activated</div>
+                                            <div class="text-sm font-extrabold text-white">You’re ready to take rides
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                    <div class="flex items-center gap-3">
+                                        <span
+                                            class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-yellow-400 text-black">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                        </span>
+                                        <div>
+                                            <div class="text-xs font-semibold text-white/70">Need help?</div>
+                                            <div class="text-sm font-extrabold text-white">Message support anytime</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rounded-2xl bg-white p-4 text-black">
+                                    <div class="flex items-start justify-between gap-3">
+                                        <div class="flex items-start gap-3">
+                                            <span
+                                                class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-black text-white">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </span>
+                                            <div>
+                                                <div class="text-xs font-semibold text-black/70">Next step</div>
+                                                <div class="text-sm font-extrabold">Choose your city and complete
+                                                    registration</div>
+                                            </div>
+                                        </div>
+                                        <a href="#cities"
+                                            class="inline-flex items-center gap-2 rounded-full bg-black px-4 py-2 text-xs font-extrabold text-white active:scale-[0.98]">
+                                            <i class="fa-solid fa-user-plus text-yellow-400"></i>
+                                            Register
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-4 text-xs text-white/65">
+                                Tip: If you change city later, we’ll guide you through switching locations.
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="rounded-[28px] border border-white/10 bg-white/5 p-5 shadow-sm">
                     <div class="flex items-start justify-between gap-4">
                         <div>
                             <div class="text-sm font-extrabold text-white">What you’ll need</div>
-                            <p class="mt-1 text-xs text-white/70">
-                                Keep these ready to finish faster.
-                            </p>
+                            <p class="mt-1 text-xs text-white/70">Keep these ready to finish faster.</p>
                         </div>
                         <span
                             class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-bold text-white/80">
@@ -1624,12 +1905,23 @@
                 function setActive(key) {
                     tabs.forEach((btn) => {
                         const isActive = btn.getAttribute("data-rx-tab") === key;
+
                         btn.setAttribute("aria-selected", isActive ? "true" : "false");
+
                         btn.classList.toggle("bg-yellow-400", isActive);
                         btn.classList.toggle("text-black", isActive);
                         btn.classList.toggle("shadow-sm", isActive);
+
                         btn.classList.toggle("bg-white/10", !isActive);
                         btn.classList.toggle("text-white/80", !isActive);
+
+                        const wrap = btn.querySelector(".rx-icon-wrap");
+                        if (wrap) {
+                            wrap.classList.toggle("bg-black", isActive);
+                            wrap.classList.toggle("text-yellow-400", isActive);
+                            wrap.classList.toggle("bg-yellow-400", !isActive);
+                            wrap.classList.toggle("text-black", !isActive);
+                        }
                     });
 
                     panels.forEach((panel) => {
@@ -1646,6 +1938,8 @@
             })();
         </script>
     </section>
+
+
 
     <section id="testimonials" class="bg-white">
         <div class="mx-auto max-w-7xl md:py-28 px-4 py-12 sm:px-6 lg:px-8">
