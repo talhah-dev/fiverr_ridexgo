@@ -51,7 +51,7 @@ navbar.innerHTML = `
       class="md:hidden overflow-hidden max-h-0 opacity-0 transition-[max-height,opacity] duration-300 ease-out"
       aria-hidden="true"
     >
-      <div class="mt-3 rounded-[22px] border border-white/10 bg-black/70 p-3 shadow-sm backdrop-blur">
+      <div class="mt-3 rounded-[22px] border border-white/10 bg-[#232323]/70 p-3 shadow-sm backdrop-blur">
         <div class="grid gap-1">
           <a href="#cities" class="rx-navlink rounded-2xl px-3 py-3 text-sm font-extrabold text-white/85 hover:bg-white/[0.06]">
             <i class="fa-solid fa-location-dot mr-2 text-yellow-400"></i> Cities
@@ -97,7 +97,7 @@ navbar.innerHTML = `
   function setHeaderBg() {
     const scrolled = window.scrollY > 8;
     header.classList.toggle("bg-transparent", !scrolled);
-    header.classList.toggle("bg-black/80", scrolled);
+    header.classList.toggle("bg-[#232323]/80", scrolled);
   }
 
   function openMenu() {

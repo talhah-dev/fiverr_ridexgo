@@ -18,10 +18,8 @@ footer.innerHTML = `
   <div class="mx-auto max-w-7xl px-4 pt-12 sm:px-6 lg:px-8">
     <div class="grid gap-6 lg:grid-cols-12">
       <div class="lg:col-span-5">
-        <a href="#" class="flex items-center gap-3">
-           <a href="#top" class="flex items-center gap-3">
-              <img src="/docs/assets/logo.png" alt="RideXGo" class="h-9" />
-            </a>
+        <a href="#top" class="flex items-center gap-3">
+          <img src="/docs/assets/logo.png" alt="RideXGo" class="h-9" />
         </a>
 
         <p class="mt-4 max-w-md text-sm leading-relaxed text-white/70">
@@ -29,7 +27,7 @@ footer.innerHTML = `
           Pick your city, submit your details, and get ready to take rides.
         </p>
 
-        <div class="mt-5 flex flex-wrap gap-2">
+        <div class="mt-5 hidden flex-wrap gap-2">
           <a href="#cities" class="inline-flex items-center gap-2 rounded-2xl bg-yellow-400 px-5 py-3 text-sm font-extrabold text-black shadow-sm active:scale-[0.98]">
             <i class="fa-solid fa-user-plus"></i>
             Register
@@ -40,7 +38,7 @@ footer.innerHTML = `
           </a>
         </div>
 
-        <div class="mt-6 grid gap-3 sm:grid-cols-2">
+        <div class="mt-6 hidden gap-3 sm:grid-cols-2">
           <div class="rounded-[22px] border border-white/10 bg-white/5 p-4">
             <div class="flex items-center gap-3">
               <span class="grid h-10 w-10 place-items-center rounded-2xl bg-yellow-400 text-black">
@@ -87,7 +85,7 @@ footer.innerHTML = `
       </div>
 
       <div class="lg:col-span-7">
-        <div class="grid gap-6 items-start sm:grid-cols-2 lg:grid-cols-3">
+        <div class="grid gap-6 items-start sm:grid-cols-2">
           <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
             <div class="text-sm font-extrabold text-white">Quick links</div>
             <div class="mt-4 grid gap-2 text-sm">
@@ -136,73 +134,23 @@ footer.innerHTML = `
             </div>
           </div>
 
-          <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-            <div class="text-sm font-extrabold text-white">Service areas</div>
-            <div class="mt-4 grid gap-2 text-sm">
-              <div class="flex items-center justify-between rounded-2xl bg-white/5 px-3 py-2">
-                <span class="inline-flex items-center gap-2 text-white/85">
-                  <span class="h-2 w-2 rounded-full bg-yellow-400"></span>
-                  Adana
+          <div class="rounded-2xl bg-white p-5 text-black">
+            <div class="flex items-start justify-between gap-3">
+              <div class="flex items-start gap-3">
+                <span class="grid h-10 w-10 place-items-center shrink-0 rounded-2xl bg-black text-white">
+                  <i class="fa-solid fa-bolt"></i>
                 </span>
-                <a href="#cities" class="text-xs font-extrabold text-yellow-300 hover:text-yellow-200">Apply</a>
-              </div>
-              <div class="flex items-center justify-between rounded-2xl bg-white/5 px-3 py-2">
-                <span class="inline-flex items-center gap-2 text-white/85">
-                  <span class="h-2 w-2 rounded-full bg-yellow-400"></span>
-                  Antalya
-                </span>
-                <a href="#cities" class="text-xs font-extrabold text-yellow-300 hover:text-yellow-200">Apply</a>
-              </div>
-              <div class="flex items-center justify-between rounded-2xl bg-white/5 px-3 py-2">
-                <span class="inline-flex items-center gap-2 text-white/85">
-                  <span class="h-2 w-2 rounded-full bg-yellow-400"></span>
-                  Ankara
-                </span>
-                <a href="#cities" class="text-xs font-extrabold text-yellow-300 hover:text-yellow-200">Apply</a>
-              </div>
-              <div class="flex items-center justify-between rounded-2xl bg-white/5 px-3 py-2">
-                <span class="inline-flex items-center gap-2 text-white/85">
-                  <span class="h-2 w-2 rounded-full bg-yellow-400"></span>
-                  İzmir
-                </span>
-                <a href="#cities" class="text-xs font-extrabold text-yellow-300 hover:text-yellow-200">Apply</a>
-              </div>
-              <div class="flex items-center justify-between rounded-2xl bg-white/5 px-3 py-2">
-                <span class="inline-flex items-center gap-2 text-white/85">
-                  <span class="h-2 w-2 rounded-full bg-yellow-400"></span>
-                  Mersin
-                </span>
-                <a href="#cities" class="text-xs font-extrabold text-yellow-300 hover:text-yellow-200">Apply</a>
-              </div>
-              <div class="flex items-center justify-between rounded-2xl border border-dashed border-white/15 bg-white/0 px-3 py-2">
-                <span class="inline-flex items-center gap-2 text-white/70">
-                  <span class="h-2 w-2 rounded-full bg-white/30"></span>
-                  İstanbul
-                </span>
-                <span class="text-xs font-extrabold text-white/50">Soon</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="mt-2 rounded-2xl bg-white p-4 text-black">
-                <div class="flex items-start justify-between gap-3">
-                  <div class="flex items-start w-full gap-3 flex-col items-center justify-center">
-                    <div class="flex w-full gap-3 items-center justify-between">
-                      <span class="grid h-10 w-10 place-items-center shrink-0 rounded-2xl bg-black text-white">
-                        <i class="fa-solid fa-bolt"></i>
-                      </span>
-                      <a href="#cities" class="inline-flex items-center gap-2 rounded-full bg-black px-4 py-2 text-xs font-extrabold text-white active:scale-[0.98]">
-                        <i class="fa-solid fa-arrow-right text-yellow-400"></i>
-                        Go
-                      </a>
-                    </div>
-                    <div>
-                      <div class="text-xs font-semibold text-black/70">Start now</div>
-                      <div class="text-sm font-extrabold">Register in your city</div>
-                    </div>
-                  </div>
+                <div>
+                  <div class="text-xs font-semibold text-black/70">Start now</div>
+                  <div class="text-sm font-extrabold">Register in your city</div>
                 </div>
               </div>
+              <a href="#cities" class="inline-flex items-center gap-2 rounded-full bg-black px-4 py-2 text-xs font-extrabold text-white active:scale-[0.98]">
+                <i class="fa-solid fa-arrow-right text-yellow-400"></i>
+                Go
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -213,7 +161,6 @@ footer.innerHTML = `
       <div>
         © <span id="rx-year"></span> RideXGo. All rights reserved.
       </div>
-
     </div>
   </div>
 
@@ -224,6 +171,4 @@ footer.innerHTML = `
     })();
   </script>
 </footer>
-
-
 `
